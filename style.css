@@ -16,7 +16,47 @@ footer{
     background-color: #333333;
     flex-grow: 3;
     color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    padding: 25px 100px;
+    min-height: 140px;
 }
+
+.div1img img{
+    width: 140px;
+    height: 150px;
+}
+
+.icons{
+    width: 40px;
+}
+
+.div1contact{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.div1contact p{
+    display: flex;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 0px 20px;
+}
+
+.social1{
+    margin-bottom: 20px;
+    font-size: 14px;
+}
+
+.social3{
+    margin-top: 20px;
+    font-size: 10px;
+}
+
 
 .div2{
     background-color: #F8B334;
